@@ -37,7 +37,7 @@ function Form({color}:Props) {
   return (
     <div className="App d-flex  align-items-center justify-content-center">
       {/* multi select section */}
-      <section className="col-12 position-relative col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-4 px-xs-3 px-4 d-flex flex-column align-items-center justify-content-center my-5">
+      <section className="col-12 position-relative col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-4 px-1 d-flex flex-column align-items-center justify-content-center my-5">
         {/* header */}
         <header className="w-100 mb-3">
           <h1 className="fs-4 fw-bold text-start">Multi Select/Title</h1>
