@@ -23,7 +23,8 @@ export const CheckBox = ({
       inputType.classList.add(`shadow-${bgcolor}`);
     } else {
       inputType.classList.remove(`bg-${bgcolor}`);
-      // inputType.classList.remove(`shadow-${bgcolor}`);
+      inputType.classList.remove(`shadow-${bgcolor}`);
+      inputType.classList.add("shadow-none")
 
     }
   };

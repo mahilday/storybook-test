@@ -29,4 +29,7 @@ $opacity: 20;
     box-shadow:  0 0 0.25rem rgba($danger, $opacity) !important;
     border-color: rgba($danger, $opacity) !important;
 }
+.shadow-none{
+    box-shadow: none;
+}
 
