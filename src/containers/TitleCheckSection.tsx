@@ -22,7 +22,7 @@ export default function TitleCheckSection({ handleClick,checkbox_count, data }: 
       {data.checkbox &&
         data.checkbox.map((item: string, index: number) => (
           <div className="child__height px-5 d-flex align-items-center border__b__type" key={item + checkbox_count}>
-            <CheckBox label={item} index={index} handleClick={(e: SyntheticEvent<HTMLInputElement>)=>handleClick(e)} />
+            <CheckBox bgcolor="primary" label={item} index={index} handleClick={(e: SyntheticEvent<HTMLInputElement>)=>handleClick(e)} />
           </div>
         ))}
         </section>

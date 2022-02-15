@@ -1,5 +1,9 @@
+@import "../variables/colors";
+
 $width: 1em;
 $height: 1em;
+$opacity: 20;
+
 
 .lgcheckinput{
     height: $width + 0.3em !important;
@@ -13,3 +17,16 @@ $height: 1em;
     height: $width - 0.3em !important;
     width: $height - 0.3em !important;
 }
+.shadow-primary{
+    box-shadow:  0 0 0.25rem rgba($primary, $opacity)!important;
+    border-color: rgba($primary, $opacity) !important;
+}
+.shadow-secondary{
+    box-shadow:  0 0 0.25rem rgba($secondary, $opacity) !important;
+    border-color: rgba($secondary, $opacity) !important;
+}
+.shadow-danger{
+    box-shadow:  0 0 0.25rem rgba($danger, $opacity) !important;
+    border-color: rgba($danger, $opacity) !important;
+}
+

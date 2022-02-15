@@ -32,11 +32,14 @@ function App() {
 
   return (
     <div className="App d-flex  align-items-center justify-content-center">
+      {/* multi select section */}
       <section className="col-12 position-relative col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-4 px-xs-3 px-4 d-flex flex-column align-items-center justify-content-center my-5">
+        {/* header */}
         <header className="w-100 mb-3">
           <h1 className="fs-4 fw-bold text-start">Multi Select/Title</h1>
         </header>
-        {genctx !== null && genctx.checkState.state.length > 0 ? (
+        {/* result mapper */}
+        {genctx !== null && genctx.checkState.state.length > 0 && (
           <ul className=" h-flow w-100 p-2 d-flex overflow-auto end-100">
             {genctx.checkState.state.map((item: string, index: number) => (
               <li
@@ -47,9 +50,8 @@ function App() {
               </li>
             ))}
           </ul>
-        ) : (
-          ""
         )}
+        {/* main content */}
         <main className="shadow position-relative bg-body rounded w-100">
           <p
             onClick={handleDone}

@@ -1,7 +1,18 @@
-$siteblue: rgb(10, 166, 238);
+// raw variables
+@import "./variables/colors";
 
-$theme-colors:(
-    "primary": $siteblue,
+// __type_variables
+
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
 );
 
 @import "node_modules/bootstrap/scss/bootstrap";
