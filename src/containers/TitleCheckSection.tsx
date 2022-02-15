@@ -10,8 +10,9 @@ type Props = {
     handleClick:(e: SyntheticEvent<HTMLInputElement>)=>void,
   checkbox_count: number;
   data: renderData;
+  color: string,
 };
-export default function TitleCheckSection({ handleClick,checkbox_count, data }: Props) {
+export default function TitleCheckSection({ handleClick,checkbox_count, data, color }: Props) {
     // const genContext = useContext(GeneralContext);
   return (
     <div>
@@ -22,7 +23,7 @@ export default function TitleCheckSection({ handleClick,checkbox_count, data }: 
       {data.checkbox &&
         data.checkbox.map((item: string, index: number) => (
           <div className="child__height px-5 d-flex align-items-center border__b__type" key={item + checkbox_count}>
-            <CheckBox bgcolor="primary" label={item} index={index} handleClick={(e: SyntheticEvent<HTMLInputElement>)=>handleClick(e)} />
+            <CheckBox bgcolor={color} label={item} index={index} handleClick={(e: SyntheticEvent<HTMLInputElement>)=>handleClick(e)} />
           </div>
         ))}
         </section>
