@@ -1,0 +1,15 @@
+$width: 1em;
+$height: 1em;
+
+.lgcheckinput{
+    height: $width + 0.3em !important;
+    width: $height + 0.3em !important;
+}
+.checkinput{
+    height: $width !important;
+    width: $height !important;
+}
+.smcheckinput{
+    height: $width - 0.3em !important;
+    width: $height - 0.3em !important;
+}

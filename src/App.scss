@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+.App {
+  font-family:"Josefin Sans", sans-serif;
+}
+.title__height{
+  height: 5em;
+}
+.child__height{
+  height: 4em;
+}
+.border__b__type{
+  border-bottom: 0.6px solid #e8e8e8;
+}
+.cursor__pointer{
+  cursor: pointer;
+}
+.h-flow::-webkit-scrollbar {
+  width: 2px;
+  height:4px;
+}
+
+
+.h-flow::-webkit-scrollbar-thumb {
+background-color: rgb(216, 216, 216);
+}
+

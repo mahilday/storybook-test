@@ -1,0 +1,7 @@
+$siteblue: rgb(10, 166, 238);
+
+$theme-colors:(
+    "primary": $siteblue,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
